@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(rgba(0,11,25,255),rgba(6,15,32,255));
+    /* background: linear-gradient(rgba(127,170,198,255),rgba(151,180,209,255),rgba(165,188,213,255)); */
+}
+.body{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../icons&images/darkwindow11Wallpaper.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: inline-flex;
+    justify-content: center;
+    align-self: end;
+    width: 100vw;
+    height: 40px;
+    padding: 2px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    background-clip: padding-box;
+    /* border: 2px solid transparent; */
+    /* box-shadow: 10px 10px 10px rgba(45,55,68,0.0.3); */
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    transition: all ease 0.1s;
+    cursor: pointer;
+}
+.logo img:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+}
+.onclickstartbar{
+    width: 450px;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+.controlPannel{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    background-clip: padding-box;
+    border-radius: 5px;
+    padding: 20px;
+}
+.appBox{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.app{
+    display: grid;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    cursor: pointer;
+}
+.app img{
+    align-self: center;
+    justify-self: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 3px;
+    transition: all ease 0.1s;
+    cursor: pointer;
+}
+.app:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    background-clip: padding-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h4{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(240, 248, 255, 0.63);
+    line-height: 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile{
+    padding: 20px ;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    box-shadow: 10px 10px 10px rgba(45,55,68,0.0.3);
+    height: 30px;
+    border-radius: 5px;
+}
+.dp{
+    height: 30px;
+    width: 30px;
+    background-image: url(../icons&images/darkwindow11Wallpaper.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    float: left;
+    cursor: pointer;
+}
+.name{
+    font-size: 16px;
+    font-family: Bahnschrift;
+    color: rgba(240, 248, 255, 0.63);
+    float: left;
+    padding: 6px 0px 0px 10px;
+}
+i{
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgba(240, 248, 255, 0.63);
+    float: right;
+    cursor: pointer;
+}
