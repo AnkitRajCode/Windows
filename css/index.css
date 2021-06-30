@@ -39,6 +39,7 @@ body{
     left : 20px;
     top :30px;
     font-weight: 100;
+    cursor: pointer;
 }
 .folder img{
     width: 60px;
@@ -47,6 +48,7 @@ body{
     left : 20px;
     top :120px;
     font-weight: 100;
+    cursor: pointer;
 }
 .trash img{
     width: 50px;
@@ -55,6 +57,7 @@ body{
     left : 25px;
     top :220px;
     font-weight: 100;
+    cursor: pointer;
 }
 .body{
     display: grid;
@@ -94,7 +97,7 @@ body{
 .onclickstartbar{
     width: 450px;
     margin-left: 30%;
-    margin-top: 50px;
+    margin-top: 8vh;
 }
 .controlPannel{
     background-color: rgba(255, 255, 255, 0.1);
@@ -140,25 +143,6 @@ h4{
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .profile{
     padding: 20px ;
     background-color: rgba(255, 255, 255, 0.1);
@@ -172,7 +156,7 @@ h4{
 .dp{
     height: 30px;
     width: 30px;
-    background-image: url(../icons&images/darkwindow11Wallpaper.jpeg);
+    background-image: url(../icons&images/User.ico);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
