@@ -4,7 +4,57 @@
 }
 body{
     background: linear-gradient(rgba(0,11,25,255),rgba(6,15,32,255));
+    overflow: hidden;
     /* background: linear-gradient(rgba(127,170,198,255),rgba(151,180,209,255),rgba(165,188,213,255)); */
+}
+
+.thispc .iconTitle{
+    left : 25px;
+    top: 85px;
+    position:absolute;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(240, 248, 255, 0.63);
+}
+.folder .iconTitle{
+    left : 35px;
+    top: 185px;
+    position:absolute;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(240, 248, 255, 0.63);
+}
+.trash .iconTitle{
+    left : 20px;
+    top: 275px;
+    position:absolute;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(240, 248, 255, 0.63);
+}
+.thispc img{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    left : 20px;
+    top :30px;
+    font-weight: 100;
+}
+.folder img{
+    width: 60px;
+    height: 60px;
+    position:absolute;
+    left : 20px;
+    top :120px;
+    font-weight: 100;
+}
+.trash img{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    left : 25px;
+    top :220px;
+    font-weight: 100;
 }
 .body{
     display: grid;
@@ -81,18 +131,6 @@ body{
     backdrop-filter: blur(30px);
     background-clip: padding-box;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 h4{
     font-size: 18px;
