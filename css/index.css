@@ -7,7 +7,9 @@ body{
     overflow: hidden;
     /* background: linear-gradient(rgba(127,170,198,255),rgba(151,180,209,255),rgba(165,188,213,255)); */
 }
-
+h1{
+    display: none;
+}
 .thispc .iconTitle{
     left : 25px;
     top: 85px;
@@ -67,6 +69,7 @@ body{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    display: block;
 }
 .navbar{
     display: inline-flex;
@@ -178,3 +181,11 @@ i{
     float: right;
     cursor: pointer;
 }
+@media only screen and (max-width: 500px) {
+    .body {
+      display: none;
+    }
+    h1{
+        display: block;
+    }
+  }
